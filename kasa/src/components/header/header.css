@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 42px;
+    width: 93%;
+    }
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+margin-left: 57px;
+}
+
+a {
+    text-decoration: none;
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
