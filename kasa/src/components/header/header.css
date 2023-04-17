@@ -58,6 +58,7 @@ a:hover {
         color: #FF6060;
         font-weight: 100;
         font-size: 12px;
+        text-transform: uppercase;
     }
     
     a:hover {
