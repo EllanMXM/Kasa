@@ -18,3 +18,11 @@ footer {
     margin-bottom: 20px;
 }
 
+@media all and (max-width: 812px) {
+footer{
+    font-size: 12px;
+}
+.logo{
+    width: 60%;
+}
+}
