@@ -21,4 +21,22 @@ body {
     font-weight: 100; 
   }
 
- 
+  @media all and (max-width: 812px) {
+
+    .banner_home {
+      position: relative; 
+      
+    }
+    .banner_title {
+      width: 50%;
+      font-size: 24px;
+   
+  }
+  .banner_img {
+    width: 95%;
+    margin: 0;
+    height: 97px;
+    object-fit: cover;
+  }
+    
+  }
