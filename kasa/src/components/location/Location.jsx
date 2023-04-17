@@ -18,13 +18,13 @@ function Location() {
 
     return (   
         <div>   
-        <div className='locationContainer'>
-            <div className='containerSlides'>
-                <Fleche image={location.pictures} />
-            </div>
-            <div className='location'>
-                <div className='locationInfo'>
-                    <div className='locationTitle'>{location.title}</div>
+            <div className='locationContainer'>
+                <div className='containerSlides'>
+                    <Fleche image={location.pictures} />
+                </div>
+                <div className='location'>
+                    <div className='locationInfo'>
+                        <div className='locationTitle'>{location.title}</div>
                         <p className='locationLocalisation'>{location.location}</p>
                         <div className='locationTags'>
                             {location.tags.map(tag => (
@@ -32,19 +32,16 @@ function Location() {
                             ))}
                         </div>
                     </div>    
-                    <div className='containerHost'>
-                        <div className='namePict'>
-                            <p className='hostName'>{location.host.name}</p>
-                            <img className='profil' src={location.host.picture} alt=''/>
+                        <div className='containerHost'>
+                            <div className='namePict'>
+                                <p className='hostName'>{location.host.name}</p>
+                                <img className='profil' src={location.host.picture} alt=''/>
+                            </div>
+                            <Rating className='locationRating' ratingValue={location.rating} />
                         </div>
-                        <Rating className='locationRating' ratingValue={location.rating} />
-                    </div>
                 </div>
-            <div className='locationCollapse'>
-                <div className='locationCollapse__div'>
+                <div className='locationCollapse'>
                     <Collapse className='descriptionCollapse' title="Description" description={location.description} />
-                </div>
-                <div className='locationCollapse__div'>
                     <Collapse className='equipmentCollapse' title="Équipements" description={
                         <ul>{location.equipments.map(equipments => (
                             <li key={equipments}>{equipments}</li>
@@ -52,15 +49,10 @@ function Location() {
                         </ul>
                     }
                     />
-                </div>
-            </div>  
-            
-        </div>
-        <div>
-<Footer/> 
-        </div>
+                </div>   
+            </div>
+            <Footer/> 
         </div> 
-    
     )
 }
 
