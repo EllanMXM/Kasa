@@ -1,0 +1,23 @@
+.banner_apropos{
+    display: flex;
+    width: 95%;
+    margin: 30px 32px;
+    border-radius: 25px;
+    filter: brightness(70%);
+}
+ 
+.aboutCollapse {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 40px;
+}
+
+.aboutCollapse__div {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FF6060;
+    margin-bottom: 20px;
+    width: 70%;
+}
