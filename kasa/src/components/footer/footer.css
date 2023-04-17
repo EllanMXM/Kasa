@@ -1,9 +1,11 @@
 footer {
-    width: 90%;
+    width: 95%;
     background-color: black;
     color: white;
-    padding: 35px 32px;
-    margin-left: 30px;
+    padding: 35px 0px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
 }
 
 .container {
@@ -15,3 +17,4 @@ footer {
 .logo {
     margin-bottom: 20px;
 }
+
