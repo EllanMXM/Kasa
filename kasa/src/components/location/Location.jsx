@@ -7,13 +7,14 @@ import Collapse from '../../components/collapse/Collapse';
 import data  from '../../data/data.json';
 import Footer from '../footer/Footer'
 import './location.css';
+import ErrorPage from '../../pages/ErrorPage/ErrorPage';
 
 function Location() {
     // RECUPERATION DES DONNEES DATA PAR ID POUR FICHE LOGEMENTS
     let {id} = useParams()
     const location = data.find(location => location.id === id);
-    if (!Location) 
-    return /*<Error />*/;
+    if (!location) 
+    return <ErrorPage />;
 
     return (   
         <div>   
