@@ -1,0 +1,44 @@
+.show {
+    position: relative;
+    margin-top: 20px;
+    max-height: 410px;
+}
+
+.arrow-left, .arrow-right {
+    position: absolute;
+    top: 42%;
+    cursor: pointer;
+    min-width: 20px;
+    max-width: 5%;
+    
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 50px;
+}
+  
+.arrow-right {
+    right: 50px;
+}
+
+.imageSlide {
+    
+    width: 1195px;
+    height: 410px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.page {
+    position: absolute;
+    bottom: 33px;
+    left: 49%;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
