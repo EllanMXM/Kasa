@@ -27,3 +27,40 @@ a:hover {
     text-decoration: underline;
 }
 
+@media all and (max-width: 812px) {
+    header {
+        align-items: center;
+        margin: 16px;
+    }
+    
+    img {
+        width: 180px;
+        margin-bottom: 16px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    ul {
+        display: flex;
+        padding: 0;
+    }
+    
+    li {
+        margin: 8px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FF6060;
+        font-weight: 100;
+        font-size: 12px;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+  }
