@@ -34,3 +34,10 @@
 a{
     text-decoration: none;
 }
+
+@media all and (max-width: 812px) {
+    .galleryCard{
+        margin: 10px;
+        align-items: baseline;
+    }
+    }
