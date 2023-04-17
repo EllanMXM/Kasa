@@ -1,7 +1,7 @@
 .collapse {
-  margin: 0px 118px;
-  width: 107%;
+  width: 100%;
 }
+
 .collapse__title {
   position: relative;
   background-color: #FF6060;
@@ -13,14 +13,17 @@
   padding: 10px 20px;
   font-weight: 300;
 }
+
 .collapse__title--txt {
   color: white;
   font-size: 24px;
   padding: 20px;
 }
+
 .collapse__title--btn {
   padding-right: 20px;
 }
+
 .collapse__content {
   display: flex;
   border-radius: 5px;
@@ -28,9 +31,8 @@
   color: red;
   font-size: 12px;
   font-weight: 300;
- 
- 
 }
+
 .collapse__content--content {
   list-style: none; 
   background-color: #F6F6F6; 

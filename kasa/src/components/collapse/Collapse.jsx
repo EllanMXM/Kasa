@@ -6,7 +6,6 @@ import Haut from "../../assets/Haut.png"
 function Collapse ({title, description}){
     const [isOpen, setOpen] = useState(false); // UTILISATION DE USESTATE POUR CREER UNE VARIABLE ISOPEN
     return(
-        <div>
             <div className="collapse">
                 <div className="collapse__title">
                     <p className="collapse__title--txt">{title}</p>
@@ -20,7 +19,7 @@ function Collapse ({title, description}){
                 { isOpen &&  <div className="collapse__content--content">{description}</div> } 
             </div>
         
-        </div>
+    
     );
 }
 
