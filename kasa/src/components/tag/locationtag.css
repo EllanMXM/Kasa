@@ -1,0 +1,25 @@
+.tag-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    width: 100%;
+    color: white;
+}
+
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    padding: 5px;
+    margin-top: 15px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #ff6060;
+    color: white;
+}
+.locationTags{
+    display: flex;
+    font-size: 14px;
+}
