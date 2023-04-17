@@ -3,7 +3,6 @@ body {
   }
 
 .banner_home {
-    position: relative; 
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -11,16 +10,15 @@ body {
   
   .banner_img {
     width: 95%; 
-    height: auto; 
     border-radius: 25px;
     filter: brightness(70%);
   }
  
   .banner_title {
-      width: 100%;
     position: absolute; 
-    text-align: center;
     font-size: 49px;
     color: white;
     font-weight: 100; 
   }
+
+ 
