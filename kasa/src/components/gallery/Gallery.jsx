@@ -8,13 +8,14 @@ function Gallery() {
         <div className='gallery'>
             {data.map(data => { /*'MAP' EST UTILISEE POUR ITERER CHAQUE ELEMENT DE 'DATA' */
                 return (
-            <Card /*PROPRIETE DE CARD */
-                key={data.id}
-                id={data.id}
-                title={data.title}
-                cover={data.cover}
-                />
-                )})}
+                    <Card /*PROPRIETE DE CARD */
+                        key={data.id}
+                        id={data.id}
+                        title={data.title}
+                        cover={data.cover}
+                    />
+                )
+            })}
         </div>
     )
 }
