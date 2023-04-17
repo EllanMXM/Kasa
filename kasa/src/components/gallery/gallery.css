@@ -8,3 +8,8 @@
     background: #F7F7F7;
 }
 
+@media all and (max-width: 812px) {
+.gallery{
+    width: 100%;
+}
+}
