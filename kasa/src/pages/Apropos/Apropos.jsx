@@ -9,16 +9,16 @@ import Footer from "../../components/footer/Footer";
 function APropos() {
 
     return (
-      <div>
+      <div className="about">
         <div id="aboutPage">
           <img src={img} title=" " alt="paysage" className="banner_apropos"/>
-
+        </div>
           <section className="aboutCollapse">    
              
               {Script.map(data => { 
                   return(
                     <div className="aboutCollapse__div"> 
-                        <Collapse className='maxime'
+                        <Collapse
                         key={data.id} 
                         title={data.label} 
                         description={data.content}
@@ -30,9 +30,9 @@ function APropos() {
             
           </section>
 
-       </div>
+       
        <Footer/>
-       </div>
+      </div>
       ); 
     }
     
