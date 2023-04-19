@@ -24,3 +24,17 @@
     border-bottom: solid 1px #FF6060;
     color:#FF6060;
 }
+
+@media all and (max-width: 812px) {
+.errorTitle{
+    font-size: 104px;
+    padding-top: 80px;
+}
+.errorParagraph{
+    font-size: 20px;
+}
+.errorLink{
+    font-size: 12px;
+    margin-top: 100px;
+}
+}

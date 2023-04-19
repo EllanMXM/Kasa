@@ -20,3 +20,20 @@
     margin-bottom: 20px;
     width: 70%;
 }
+
+@media all and (max-width: 812px) {
+    .banner_apropos {
+        width: 95%;
+        margin: auto;
+        height: 223px;
+        object-fit: cover;
+	}
+
+    .about{
+        justify-content: center;
+    }
+    .aboutCollapse{
+        display: inherit;
+    width: 100%;
+    }
+}
