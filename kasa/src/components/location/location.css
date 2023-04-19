@@ -4,13 +4,9 @@
     align-items: center;
 }
 
-.containerSlides {
-    display: flex;
-    justify-content: space-around;
-}
-
 .containerHost {
-    flex-flow: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .locationTitle {
@@ -37,22 +33,19 @@
     display: flex;
     object-fit: cover;
     border-radius: 50%;
-    width: 64px;
-    height: 64px;
+    width: 40%;
 }
 
 .hostName {
-    font-size: 18px;
-    padding-right: 10px;
-    color:#FF6060;
+    font-size: 20px;
+    color: #FF6060;
 }
-
 
 .location {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1190px;
+    width: 95%;
     margin-top: 25px;
 }
 
@@ -62,8 +55,9 @@
 
 .namePict {
     display: flex;
-    width: 20px;
-    margin: 0px auto;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 ul {
@@ -72,11 +66,56 @@ ul {
 .locationCollapse{
     justify-content: space-between;
     display: flex;
-    width: 94%;
-    margin-left: -270px;
+    width: 95%;
+    margin: 25px 0;
 }
 
 .locationCollapse__div{
     margin: 20px 20px;
 }
+.locationCollapse .collapse {
+    width: 45%;
+    
+  }
+  .locationCollapse .collapse__content--content{
+    width: 92%;
+    color: #FF6060;
+    font-size: 20px;
+    line-height: 31px;
+  }
+  
+  .locationCollapse .collapse__content--content ul{
+   flex-direction: column;
+}
+.locationCollapse .collapse__content--content li{
+    margin: 0px;
+}
 
+@media all and (max-width: 812px) {
+.location{
+    margin: 0;
+    flex-wrap: wrap;
+}
+.locationInfo{
+    display: flex;
+}
+.locationCollapse{
+    display: block;
+}
+.locationLocalisation{
+    margin: 0;
+    line-height: 3;
+}
+.namePict{
+    width: 37%;
+}
+.containerHost{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: inherit;
+}
+.locationCollapse .collapse{
+    width: 70%;
+    margin: 15px 0;
+}
+}
