@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import Collapse from "../../components/collapse/Collapse";
 import './apropos.css'
 import img from '../../assets/A_Propos.png'
@@ -7,6 +7,10 @@ import Footer from "../../components/footer/Footer";
 
 
 function APropos() {
+ 
+  useEffect(() => {
+    document.title = "A Propos";
+}, []);
 
     return (
       <div className="about">

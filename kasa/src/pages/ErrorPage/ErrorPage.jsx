@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './errorPage.css';
 
 function ErrorPage() {
+
+  useEffect(() => {
+    document.title = "Error Page";
+}, []);
+
   return (
       <div className="errorContainer">
         <div className="errorTitle">404</div>
