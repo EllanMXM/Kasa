@@ -20,6 +20,12 @@
     margin-bottom: 20px;
     width: 70%;
 }
+.aboutCollapse__div .collapse__content--content{
+    padding: 30px 15px 15px 20px;
+    width: auto;
+}
+
+
 
 @media all and (max-width: 812px) {
     .banner_apropos {

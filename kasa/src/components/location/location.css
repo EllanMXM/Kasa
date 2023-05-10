@@ -12,7 +12,7 @@
 .locationTitle {
     display: flex;
     flex-direction: row;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 500;
     color:#FF6060;
 }
@@ -78,10 +78,11 @@ ul {
     
   }
   .locationCollapse .collapse__content--content{
-    width: 100%;
+    width: auto;
     color: #FF6060;
     font-size: 20px;
     line-height: 31px;
+    padding: 40px 10px 65px 28px;
   }
   
   .locationCollapse .collapse__content--content ul{
@@ -135,9 +136,10 @@ ul {
     margin-bottom: 30px;
 }
 .locationCollapse .collapse__content--content{
-    width: 100%;
+    width: auto;
     line-height: 1;
     font-size: 13px;
+    padding: 25px 10px 5px 17px;
 }
 .locationCollapse .collapse__content--content li{
     line-height: 20px;
