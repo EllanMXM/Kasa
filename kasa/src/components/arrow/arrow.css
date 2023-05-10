@@ -1,0 +1,56 @@
+.show {
+    position: relative;
+}
+
+.arrow-left, .arrow-right {
+    position: absolute;
+    top: 42%;
+    cursor: pointer;
+    min-width: 20px;
+    max-width: 5%;
+    
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 50px;
+}
+  
+.arrow-right {
+    right: 50px;
+}
+
+.imageSlide {
+    
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.page {
+    position: absolute;
+    bottom: 33px;
+    left: 49%;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+@media all and (max-width: 812px) {
+    .fleche{
+        width: 16px;
+        height: 10px;
+        margin: 0;
+    }
+    .imageSlide{
+        max-width: 98%;
+        max-height: 280px;
+        margin-left: 7px;
+    }
+}
+
