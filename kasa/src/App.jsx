@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Header from './components/header/Header';
 import Location from './components/location/Location';
@@ -14,8 +14,8 @@ function App () {
       <Header />
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/Logements/:id" element={<Location />} />
         <Route path="/Logements" element={<Logements />} />
+        <Route path="/Logements/:id" element={<Location />} />
         <Route path="/Apropos" element={<APropos />}/>
       </Routes>
     </div>
