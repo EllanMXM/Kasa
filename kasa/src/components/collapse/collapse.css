@@ -36,29 +36,24 @@
 .collapse__content--content {
   list-style: none; 
   background-color: #F6F6F6; 
-  padding: 20px 22px;
   margin-top: -5px;
-  width: 95%;
+  width: 100%;
   font-weight: 300;
   border-radius: 10px;
+  padding: 20px 0 20px 0;
 }
 
 @media all and (max-width: 812px) {
   .aboutCollapse {
     margin: 20px 0;
 }
-
-  .collapse__title{
-    width: 122%;
-    margin-left: 7px;
-  }
-  .collapse__content--content{
-    padding-right: 88px;
-    font-size: 13px;
-    margin-left: 7px;
-  }
   .collapse__title--txt{
     font-size: 13px;
     padding: 0;
   }
+  .aboutCollapse__div .collapse__content--content{
+    width: 100%;
+    font-size: 13px;
+  }
+
 }

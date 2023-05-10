@@ -24,19 +24,22 @@ body {
   @media all and (max-width: 812px) {
 
     .banner_home {
-      position: relative; 
+      justify-content: flex-start;
+    margin-left: 10px;
+    width: 95%;
+
       
     }
     .banner_title {
       width: 50%;
       font-size: 24px;
+      margin-left: 20px;
    
   }
   .banner_img {
-    width: 95%;
+    width: 100%;
     margin: 0;
     height: 97px;
     object-fit: cover;
   }
-    
   }

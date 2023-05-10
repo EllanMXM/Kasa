@@ -1,15 +1,31 @@
 .gallery {
-    width: 100%;
+    width: 95%;
     border-radius: 20px 20px 20px 20px;
     display: flex;
     justify-content: center;
-    margin: 40px 0;
+    margin: 40px 34px;
     flex-wrap: wrap;
     background: #F7F7F7;
 }
 
 @media all and (max-width: 812px) {
 .gallery{
+    margin: 20px 0px;
+    background: none;
+    justify-content: flex-start;
     width: 100%;
 }
+.galleryCard img{
+    width: 100%;
+}
+}
+
+@media all and (max-width: 1240px){
+
+.gallery{
+    width: 100%;
+    background: none;
+    margin: 11px auto;
+}
+    
 }

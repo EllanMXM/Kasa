@@ -33,7 +33,17 @@
         justify-content: center;
     }
     .aboutCollapse{
-        display: inherit;
     width: 100%;
     }
+    
+
+.aboutCollapse__div{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.aboutCollapse__div
+.collapse{
+    width: 95%;
+}
 }
