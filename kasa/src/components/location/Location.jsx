@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import Fleche from '../../components/fleche/Fleche';
+import Arrow from '../../components/arrow/Arrow';
 import Tag from '../tag/LocationTag';
 import Rating from '../rate/Rate';
 import Collapse from '../../components/collapse/Collapse';
@@ -20,7 +20,7 @@ function Location() {
         <div>   
             <div className='locationContainer'>
                 <div className='containerSlides'>
-                    <Fleche image={location.pictures} />
+                    <Arrow image={location.pictures} />
                 </div>
                 <div className='location'>
                     <div className='locationInfo'>
