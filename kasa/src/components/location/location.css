@@ -79,8 +79,9 @@ ul {
   }
   .locationCollapse .collapse__content--content{
     width: auto;
+    height: 55%;
     color: #FF6060;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 31px;
     padding: 40px 10px 65px 28px;
   }
