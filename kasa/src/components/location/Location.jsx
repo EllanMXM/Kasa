@@ -15,7 +15,7 @@ function Location() {
 
   useEffect(() => {
     if (location) {
-      document.title = location.title;
+      document.title = 'Kasa - ' + location.title;
     }
   }, [location]);
 
