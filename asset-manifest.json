@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JAMARD_MAXIME_N7_KASA_17042023/static/css/main.02f0ea0b.css",
-    "main.js": "/JAMARD_MAXIME_N7_KASA_17042023/static/js/main.d569d156.js",
-    "static/media/A_Propos.png": "/JAMARD_MAXIME_N7_KASA_17042023/static/media/A_Propos.51750874829dca1c2878.png",
-    "static/media/IMG.png": "/JAMARD_MAXIME_N7_KASA_17042023/static/media/IMG.4c36aadaecae8cfa7756.png",
-    "index.html": "/JAMARD_MAXIME_N7_KASA_17042023/index.html",
-    "main.02f0ea0b.css.map": "/JAMARD_MAXIME_N7_KASA_17042023/static/css/main.02f0ea0b.css.map",
-    "main.d569d156.js.map": "/JAMARD_MAXIME_N7_KASA_17042023/static/js/main.d569d156.js.map"
+    "main.css": "/Kasa/static/css/main.02f0ea0b.css",
+    "main.js": "/Kasa/static/js/main.a495f435.js",
+    "static/media/A_Propos.png": "/Kasa/static/media/A_Propos.51750874829dca1c2878.png",
+    "static/media/IMG.png": "/Kasa/static/media/IMG.4c36aadaecae8cfa7756.png",
+    "index.html": "/Kasa/index.html",
+    "main.02f0ea0b.css.map": "/Kasa/static/css/main.02f0ea0b.css.map",
+    "main.a495f435.js.map": "/Kasa/static/js/main.a495f435.js.map"
   },
   "entrypoints": [
     "static/css/main.02f0ea0b.css",
-    "static/js/main.d569d156.js"
+    "static/js/main.a495f435.js"
   ]
 }
